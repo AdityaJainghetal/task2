@@ -7,9 +7,14 @@ const cloudinary = require("cloudinary").v2;
 
 // Configure Cloudinary
 cloudinary.config({
-    cloud_name: process.env.CLOUDINARY_CLOUD_NAME, // Use environment variables
-    api_key: process.env.CLOUDINARY_API_KEY,
-    api_secret: process.env.CLOUDINARY_API_SECRET,
+    // cloud_name: process.env.CLOUDINARY_CLOUD_NAME, // Use environment variables
+    // api_key: process.env.CLOUDINARY_API_KEY,
+    // api_secret: process.env.CLOUDINARY_API_SECRET,
+
+
+    cloud_name: "dgc7ltpg8", // Use environment variables
+    api_key: "559138412476855",
+    api_secret: "Cd8zVsoh2J_7zu3-pNPrepzJpoE",
 });
 
 // Set up Cloudinary storage
